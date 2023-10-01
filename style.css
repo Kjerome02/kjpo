@@ -1,0 +1,63 @@
+body{
+    background-image: url(blox.png);
+    border: #007bff;
+}
+*{box-sizing:border-box;}
+        body {
+            color: #030000;
+            font-family: Arial, sans-serif;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 120vh;
+            flex-direction: column;
+        }
+
+   
+
+        input {
+            color: #fff;
+            border: 1px solid #2b2a82;
+            padding: 8px 12px;
+            margin: 4px;
+            border-radius: 4px;
+            width: 100%;
+        }
+
+        input[type="number"] {
+            width: 100%;
+        }
+
+        label {
+            display: block;
+            margin: 10px 0;
+        }
+
+        p {
+            font-size: 18px;
+        }
+
+        .container {
+            border: 1px solid #66666600;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 20px;
+            width: 50%;
+            margin: 20px auto;
+            text-align: center;
+        }
+
+button {
+    background-color: #f7eded; /* Deep blue color */
+    color: #080101;
+    padding: 8px 12px;
+    margin: 4px;
+    border-radius: 4px;
+    width: 100%;
+border:none;
+cursor:pointer;
+}
+
+button:hover{
+    background-color: #f30f0f; /* Darker blue on hover */
+}
